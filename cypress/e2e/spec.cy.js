@@ -9,6 +9,7 @@ describe('Test Coffee-Cart App', () => {
         cy.get('[data-cy="Americano"]').click() // Click on button
         cy.get('[data-cy="Cafe-Latte"]').click() // Click on button
         cy.get('[data-cy="Espresso-Con Panna"]').click() // Click on button
+        cy.get('[data-cy="Espresso-Con Panna"]').click() // Click on button
         cy.get('[data-cy="Cafe-Breve"]').click() // Click on button
         cy.get('[aria-label="Cart page"]').click() // Click on button
         cy.get('[aria-label="Cart page"]').contains('cart (9)')
