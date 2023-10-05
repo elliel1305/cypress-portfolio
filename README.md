@@ -5,6 +5,7 @@
 * Create a new Cypress project
 * Run the Cypress UI 
 * UI testing
+* Page object classes
 * API testing
   * Creating classes/interfaces to represent bodies/responses 
   * Request command 
